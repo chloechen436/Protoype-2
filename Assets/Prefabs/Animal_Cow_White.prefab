@@ -496,6 +496,8 @@ GameObject:
   - component: {fileID: 2704687921106752783}
   - component: {fileID: 2704687921295537922}
   - component: {fileID: 576014111781532993}
+  - component: {fileID: 775892618}
+  - component: {fileID: 1472116313723415078}
   m_Layer: 0
   m_Name: Animal_Cow_White
   m_TagString: Untagged
@@ -511,8 +513,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2704687921097103407}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -13.7, y: -0.39, z: 14}
-  m_LocalScale: {x: 0.09, y: 0.09, z: 0.09}
+  m_LocalPosition: {x: -13.7, y: -0.31375, z: 14.005}
+  m_LocalScale: {x: 0.0849493, y: 0.0849493, z: 0.0849493}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2704687921097536111}
@@ -551,7 +553,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f01041e524f1a4014abaa0631c849e3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
+  speed: 25
 --- !u!65 &576014111781532993
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -560,11 +562,35 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2704687921097103407}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0, y: 37.522655, z: 53.177418}
-  m_Center: {x: 0.5, y: 15.08782, z: -0.97955596}
+  m_Size: {x: 17, y: 39, z: 55}
+  m_Center: {x: 0.5, y: 15.08782, z: -1}
+--- !u!114 &775892618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2704687921097103407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58510f4c99367479ba5e18158dbb0488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1472116313723415078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2704687921097103407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 081c3db1675fe4e7a8fd740ecf940321, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2704687921097103551
 GameObject:
   m_ObjectHideFlags: 0
